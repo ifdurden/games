@@ -29,7 +29,11 @@ def get_input():
                 print("Error!Please enter a valid number!")
     end = time.time()
     total = round(end - start , 2)
-    print(f"It took you {total} seconds")
+    if total <=20 :
+        print("Congrts!!")
+        print(f"You have done it in {total} seconds well done")
+    else :
+        print(f"It took you: {total} seconds")
     
 def main():
     get_input()
