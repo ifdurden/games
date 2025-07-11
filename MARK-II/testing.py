@@ -12,7 +12,7 @@ def get_racer():
                 return racers 
             print("Please enter number between 2 and 10 (INCLUSIVE)")
         except ValueError:
-            print("Please enter a valid number")
+            print("Error :Please enter a valid number!")
 
 def racer(colors):
     turtles = create_turtle(colors)
