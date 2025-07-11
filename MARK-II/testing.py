@@ -6,6 +6,7 @@ COLORS = ["brown","red" , "yellow" , "green" , "blue" , "black" , "cyan" , "oran
 def get_racer():
     while True :
         try:
+            print("Please Enter a number between 2-10")
             racers = int(input("How many racer would you like : "))
             if 2 <= racers <= 10 :
                 return racers 
