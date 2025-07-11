@@ -76,6 +76,8 @@ def init_screen():
     return screen
 
 # MAIN PROGRAM
+print("Welcome to the turtle racing game!")
+print("**************************************")
 num_racers = get_racer()
 screen = init_screen()
 random.shuffle(COLORS)
